@@ -23,7 +23,7 @@ git clone https://github.com/VindiVish/Assignment-Playwright.git
 # Move to the cloned repository
 cd Assignment-Playwright 
 
-#Please install @playwright/test package to use Playwright Test.
+#Install @playwright/test package to use Playwright Test.
 npm install -D @playwright/test
 ```
 ### Playwright VS Code Extension
