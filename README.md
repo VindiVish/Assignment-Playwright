@@ -16,13 +16,13 @@ https://github.com/nvm-sh/nvm
 ### Installation
 
 To get started, clone this repository and install the dependencies:
-
+```zsh
 # Clone the repository
 git clone https://github.com/VindiVish/Assignment-Playwright.git
 
 # Move to the cloned repository
 cd Assignment-Playwright 
-
+```
 ### Playwright VS Code Extension
 
 Alternatively you can also get started and run your tests using the VS CODE Extension.
