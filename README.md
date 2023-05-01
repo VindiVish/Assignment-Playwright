@@ -49,10 +49,10 @@ https://playwright.dev/docs/codegen-intro
 ### Debugging Tests
 
 When writing tests, you can use the following command to launch the browser in a non-headless mode and pause the test execution at the beginning of the test.
-
+```zsh
 npx playwright test file-name.spec.ts --headed --debug
 ##Ex: npx playwright test sakeranking.spec.ts --headed --debug
-
+```
 For information on writing tests, see the Playwright documentation:
 https://playwright.dev/docs/writing-tests
 
@@ -61,17 +61,21 @@ https://playwright.dev/docs/writing-tests
 To run the tests, use the following command:
 
 # Run all tests
+```zsh
 npm run test
-
+```
 # Run a specific test file
+```zsh
 npm run test file-name.spec.ts
 ##Ex: npm run test sakeranking.spec.ts 
-
+```
 This command will start a test runner that launches a browser and runs the tests.
 By default, the tests are run in headless mode, but you can also run them in headed mode by giving the option:
 
+```zsh
 npx playwright test landing-page.spec.ts --headed
-
+##Ex: npx playwright test sakeranking.spec.ts
+```
 For more information on running the tests, see the Playwright documentation:
 https://playwright.dev/docs/running-tests
 
