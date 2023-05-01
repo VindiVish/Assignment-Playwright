@@ -19,7 +19,7 @@ https://github.com/nvm-sh/nvm
 To get started, clone this repository and install the dependencies:
 
 # Clone the repository
-git clone ------
+git clone https://github.com/VindiVish/Assignment-Playwright.git
 
 # Move to the cloned repository
 cd sakeranking 
