@@ -20,8 +20,6 @@ test.describe("SakeRanking", ()=>{
         await page.getByRole('button', { name: '鳳凰美田' }).click();
         await page.getByRole('button', { name: '仙禽' }).click();
         await page.getByRole('button', { name: '赤武' }).click();
-        await page.getByRole('button', { name: '鍋島' }).click();
-
 
         //Check String Value
         await expect(page.getByText('清水清三郎商店', { exact: true })).toBeVisible();
